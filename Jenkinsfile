@@ -15,6 +15,7 @@ pipeline {
     agent any
     tools {
         maven 'maven3'
+        jdk 'jdk17'
     }
     environment{
         SONAR_CREDS=credentials('sonar')
