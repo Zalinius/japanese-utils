@@ -7,6 +7,12 @@
 	<version>1.0.0</version>
 	<name>Japanese Utilities</name>
 	<description>A small library to help with handling Japanese characters (hiragana, katakana and kanji) and text</description>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
